@@ -1,8 +1,8 @@
-import { Box, Button, TextField, Typography } from "@mui/material";
+import { Box, Button, TextField } from "@mui/material";
 import { Formik } from "formik";
 import * as Yup from "yup";
 import useMediaQuery from "@mui/material/useMediaQuery";
-import Header from "../../components/header";
+import Header from "../../components/Header";
 const initialValues = {
   firstName: "",
   lastName: "",
@@ -135,7 +135,7 @@ const Form = () => {
               />
             </Box>
             <Box display="flex" justifyContent="end" mt="20px">
-              <Button type="submit" color="secondary" variant="contained" >
+              <Button type="submit" color="secondary" variant="contained">
                 Create New User
               </Button>
             </Box>
